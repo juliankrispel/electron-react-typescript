@@ -1,7 +1,7 @@
 {
-  "name": "logger-x",
+  "name": "electron-react-typescript-starter",
   "version": "0.0.1",
-  "description": "A nicer log-tailing experience for cloudwatch",
+  "description": "A boilerplate for building apps with electron, react and typescript",
   "private": true,
   "main": "bin/electron.js",
   "scripts": {
@@ -14,16 +14,14 @@
     "electron": "electron .",
     "start": "run-p watch:browser watch:node electron"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Julian Krispel-Samsel",
+  "license": "MIT",
   "devDependencies": {
-    "@types/dotenv": "^8.2.0",
     "@types/electron": "^1.6.10",
     "@types/node": "^14.14.5",
     "@types/react": "^16.9.55",
     "@types/react-dom": "^16.9.9",
     "css-loader": "^5.0.0",
-    "dotenv": "^8.2.0",
     "electron": "^10.1.5",
     "mini-css-extract-plugin": "^1.2.1",
     "npm-run-all": "^4.1.5",
@@ -34,9 +32,5 @@
     "typescript-plugin-css-modules": "^2.7.0",
     "webpack": "^5.3.2",
     "webpack-cli": "^4.1.0"
-  },
-  "dependencies": {
-    "@types/aws-sdk": "^2.7.0",
-    "aws-sdk": "^2.780.0"
   }
 }

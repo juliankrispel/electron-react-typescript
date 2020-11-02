@@ -24,4 +24,4 @@ Minimal starting point so you can add the tools of your choice easily.
 - `npm run build:node` - compile all files in `electron`
 - `npm run build:browser` - compile all files in `src`
 
-Any questions? Reach [out on twitter](https://twitter.com/juliandoesstuff)
+Any questions? Reach [out on twitter](https://twitter.com/juliandoesstuff). Also don't forget to check [out my blog](https://jkrsp.com/).
