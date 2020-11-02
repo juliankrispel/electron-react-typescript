@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./bin",
+    "target": "es5",
+    "rootDir": "electron",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "lib": ["es2016", "dom", "es5"]
+  },
+  "include": [
+    "./electron/**/*"
+  ]
+}

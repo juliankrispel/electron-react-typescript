@@ -1,0 +1,41 @@
+{
+  "name": "logger-x",
+  "version": "0.0.1",
+  "description": "A nicer log-tailing experience for cloudwatch",
+  "main": "bin/electron.js",
+  "scripts": {
+    "build:node": "tsc -p tsconfig.node.json",
+    "build:browser": "webpack",
+    "watch:node": "tsc -w -p tsconfig.node.json",
+    "watch:browser": "webpack -w",
+    "build": "run-p build:node build:browser",
+    "watch": "run-p watch:browser watch:node",
+    "dev": "run-p watch:browser watch:node start",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/electron": "^1.6.10",
+    "@types/node": "^14.14.5",
+    "@types/react": "^16.9.55",
+    "@types/react-dom": "^16.9.9",
+    "css-loader": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "electron": "^10.1.5",
+    "mini-css-extract-plugin": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.5",
+    "typescript-plugin-css-modules": "^2.7.0",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  },
+  "dependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "aws-sdk": "^2.780.0"
+  }
+}

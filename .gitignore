@@ -1,0 +1,6 @@
+bin/**/*
+!bin/index.html
+node_modules
+*.tsbuildinfo
+.DS_Store
+*.tsbuildinfo
