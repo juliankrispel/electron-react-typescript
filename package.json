@@ -2,6 +2,7 @@
   "name": "logger-x",
   "version": "0.0.1",
   "description": "A nicer log-tailing experience for cloudwatch",
+  "private": true,
   "main": "bin/electron.js",
   "scripts": {
     "build:node": "tsc -p tsconfig.node.json",
@@ -10,8 +11,8 @@
     "watch:browser": "webpack -w",
     "build": "run-p build:node build:browser",
     "watch": "run-p watch:browser watch:node",
-    "dev": "run-p watch:browser watch:node start",
-    "start": "electron ."
+    "electron": "electron .",
+    "start": "run-p watch:browser watch:node electron"
   },
   "author": "",
   "license": "ISC",
